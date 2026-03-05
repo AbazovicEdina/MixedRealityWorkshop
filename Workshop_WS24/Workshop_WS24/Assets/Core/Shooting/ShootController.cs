@@ -9,6 +9,7 @@ public class ShootController : MonoBehaviour
     public Transform spawnTransform;
     public float firepower = 10;
     public XRGrabInteractable grabInteractable;
+    public XRSocketInteractor socket;
     
     void Start()
     {
